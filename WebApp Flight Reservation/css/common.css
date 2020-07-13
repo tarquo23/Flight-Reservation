@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+/* Body */
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* Side menu */
+.sidenav {
+    width: 170px;
+    height: 200%;
+    background-color: #eee;
+    float: left;
+}
+
+.sidenav a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    background-color: #ccc;
+}
+
+.sidenav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Main div */
+#main{
+	padding-left: 200px;
+	padding-top: 10px;
+}
+
+/* Header */
+.header {
+  overflow: hidden;
+  background-color: white;
+}
+
+#shuttleImg{
+	width: 550px;
+}
+
+/* Buttons */
+.button{
+	background-color: #FECC1E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:disabled{
+	background-color: #DCBE64;
+	cursor:not-allowed;
+}
+
+/* Error messages */
+.errorMsg{
+	color: red;
+}
+
+.errorSignUp{
+	float: center;
+}
+
